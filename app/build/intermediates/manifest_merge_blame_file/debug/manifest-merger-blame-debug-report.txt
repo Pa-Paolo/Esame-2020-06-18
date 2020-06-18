@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.murach.newsreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:7:5-81
+11-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:8:5-67
+12-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:9:5-79
+13-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:9:22-76
+14
+15    <application
+15-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:11:5-52:19
+16        android:name="it.unige.blackbird.newsreader.NewsReaderApp"
+16-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:12:9-67
+17        android:allowBackup="true"
+17-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:13:9-35
+18        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+18-->[com.android.support:support-compat:28.0.0] C:\Users\Paolo\.gradle\caches\transforms-2\files-2.1\f13e80600485f087c51c6872f934df1c\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:14:9-45
+21        android:label="@string/app_name"
+21-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:15:9-41
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:16:9-40
+24        <activity
+24-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:18:9-25:20
+25            android:name="it.unige.blackbird.newsreader.ItemsActivity"
+25-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:19:13-71
+26            android:label="@string/app_name" >
+26-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:20:13-45
+27            <intent-filter>
+27-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:21:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:22:17-69
+28-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:22:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:23:17-77
+30-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:26:9-29:20
+34            android:name="it.unige.blackbird.newsreader.ItemActivity"
+34-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:27:13-70
+35            android:label="@string/app_name" >
+35-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:28:13-45
+36        </activity>
+37
+38        <service
+38-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:31:9-34:19
+39            android:name="it.unige.blackbird.newsreader.NewsReaderService"
+39-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:32:13-75
+40            android:exported="false" >
+40-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:33:13-37
+41        </service>
+42
+43        <receiver android:name="it.unige.blackbird.newsreader.BootReceiver" >
+43-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:36:9-40:20
+43-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:36:19-76
+44            <intent-filter>
+44-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:37:13-39:29
+45                <action android:name="android.intent.action.BOOT_COMPLETED" />
+45-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:38:17-79
+45-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:38:25-76
+46            </intent-filter>
+47        </receiver>
+48        <receiver android:name="it.unige.blackbird.newsreader.BatteryLowReceiver" >
+48-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:41:9-45:20
+48-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:41:19-82
+49            <intent-filter>
+49-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:42:13-44:29
+50                <action android:name="android.intent.action.BATTERY_LOW" />
+50-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:43:17-76
+50-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:43:25-73
+51            </intent-filter>
+52        </receiver>
+53        <receiver android:name="it.unige.blackbird.newsreader.ConnectivityReceiver" >
+53-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:46:9-50:20
+53-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:46:19-84
+54            <intent-filter>
+54-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:47:13-49:29
+55                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+55-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:48:17-79
+55-->C:\Users\Paolo\Desktop\esame\EsameProgrammazioneMobile18-06-2020\NewsReaderJava\app\src\main\AndroidManifest.xml:48:25-76
+56            </intent-filter>
+57        </receiver>
+58    </application>
+59
+60</manifest>
